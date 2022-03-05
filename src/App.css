@@ -1,41 +1,40 @@
 .bg-register {
-  background: linear-gradient(to right, black 38%, transparent),url(http://localhost:3000/static/media/background.593977ef979d6fbe1eae.jpg);
+  background: linear-gradient(to right, black 38%, transparent),
+    url('/public/assets/background.jpg');
 }
-.bg-reg{
+.bg-reg {
   background: transparent !important;
 }
 .register {
   background: rgba(255, 255, 255, 0.1);
 }
 
- 
-.register  .card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-    color: white;
+.register .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  color: white;
 }
-.main-nav ,.ftr {
+.main-nav,
+.ftr {
   background-color: black;
-
-
 }
- .ftr-content {
+.ftr-content {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .ftr-content .list-group {
   width: 31%;
 }
-.main-nav .nav-item a{
+.main-nav .nav-item a {
   font-size: 20px;
   color: white;
 }
-.list-group-item.disabled, .list-group-item:disabled {
- 
+.list-group-item.disabled,
+.list-group-item:disabled {
   background-color: #000;
 }
-.list-group-item{
-color :#696920;
+.list-group-item {
+  color: #696920;
   background-color: #000;
 }

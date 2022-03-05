@@ -11,6 +11,7 @@ const App = () => {
   const register = (e) => {
     setShowA(!showA);
     e.preventDefault();
+    
   };
   return (
     <div className="App bg-register">
