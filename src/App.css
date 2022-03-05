@@ -1,8 +1,11 @@
 .bg-register {
   background: linear-gradient(to right, black 38%, transparent),url(http://localhost:3000/static/media/background.593977ef979d6fbe1eae.jpg);
 }
+.bg-reg{
+  background: transparent !important;
+}
 .register {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
 }
 
  

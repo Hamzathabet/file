@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 const App = () => (
-  <div className="App">
+  <div className="App bg-register">
     <Nav
       className="main-nav"
       activeKey="/home"
@@ -23,9 +23,8 @@ const App = () => (
         <Nav.Link eventKey="link-2">PROFILE</Nav.Link>
       </Nav.Item>
     </Nav>
-
-    <Container className="p-3 ">
-      <Container className="p-5 mb-4 bg-light rounded-3 bg-register">
+ 
+      <Container className="p-5 mb-4 bg-light rounded-3 bg-reg">
         <Card style={{ width: "30rem" }} className=" register">
           <Card.Body>
             <Card.Title>REGISTER NOW !</Card.Title>
@@ -62,14 +61,14 @@ const App = () => (
                   <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
                 <Button variant="primary" type="submit">
-                  Submit
+                  REGISTER
                 </Button>
               </Form>
             </Card.Text>
           </Card.Body>
         </Card>
       </Container>
-    </Container>
+ 
     <footer className="ftr">
       <Container className="p-3 ftr-content">
         <ListGroup>
